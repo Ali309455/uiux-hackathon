@@ -28,7 +28,7 @@ const Featured = () => {
           Top Categories
         </h3>
       </div>
-      <div className="flex items-center gap-[24px]">
+      <div className="flex items-center justify-between gap-[24px]">
         {products.map((item, index) => (
           <CategoryCard key={index} info={item} />
         ))}
