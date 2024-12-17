@@ -9,7 +9,7 @@ const CategoryCard: React.FC<{ info: Icategarycard }> = ({ info }) => {
   return (
     <div className='relative'>
       <div
-  className={`w-[424px] h-[424px] max bg-cover bg-center`}
+  className={`w-[424px] h-[424px] max-1625:w-[300px] max-1625:h-[300px] max-1257:w-[200px] max-1257:h-[200px] bg-cover bg-center`}
   style={{ backgroundImage: `url(${info.imgSrc})` }}
 ></div>
 

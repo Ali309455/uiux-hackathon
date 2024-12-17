@@ -15,6 +15,7 @@ export default {
         "max-1400": { max: "1400px" }, // Applies when width <= 1400px
         "max-1350": { max: "1350px" },
         "max-1285": { max: "1285px" },
+        "max-1257": { max: "1257px" },
         "max-1080": { max: "1080px" }, // Applies when width <= 1080px
         "max-950": { max: "950px" },
         "max-802": { max: "802px" },
@@ -27,4 +28,5 @@ export default {
     },
   },
   plugins: [],
+
 } satisfies Config;

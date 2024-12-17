@@ -11,14 +11,14 @@ const ExploreStyles = () => {
       <section className="w-screen px-[300px] max-1800:px-[150px] max-1080:px-[75px] max-650:px-[35px] py-[20px] ">
         <div className="h-[648px] relative">
           {/* Left Section */}
-          <div className="absolute left-[-15px] bottom-0 -translate-y-1/2 -rotate-90 origin-bottom-left">
-              <p className={`text-lg ${roboto.className}  font-[400] text-[34px] leading-[40px] text-center tracking-[1px] `}>
+          <div className="absolute left-[-15px] max-802:left-0 bottom-0 -translate-y-1/2 -rotate-90 origin-bottom-left">
+              <p className={` ${roboto.className}  font-[400] text-[34px] max-1080:text-[16px]  leading-[40px] text-center tracking-[1px] `}>
                 EXPLORE NEW AND POPULAR STYLES
               </p>
             </div>
   
           {/* Right Section */}
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-2 max-1080:grid-cols-1 gap-6">
             <div>
                 <img src="/categorychair1.png" className="h-full" alt="chair" />
             </div>
