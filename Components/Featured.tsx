@@ -35,10 +35,10 @@ const Featured = () => {
   ];
 
   return (
-    <div className="w-screen px-[300px] max-1800:px-[150px] max-1080:px-[75px] max-650:px-[35px] py-[20px] ">
+    <div className="w-screen px-[300px] max-1800:px-[150px] max-1080:px-[75px] max-650:px-[35px] py-[20px] max-802:pt-[100px] max-450:pt-[150px] ">
       {/* Heading */}
       <div className="pb-[45px]">
-        <h3 className="text-[32px] leading-[35.2px] font-[600]">
+        <h3 className="text-[32px] leading-[35.2px] font-[600] max-750:text-center" >
           Featured Products
         </h3>
       </div>
